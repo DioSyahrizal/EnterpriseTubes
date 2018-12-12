@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/imgBackgroundProfil"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgmalang" />
+
+    <ImageView
+        android:id="@+id/imageProfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/profileicon"
+        android:layout_marginTop="25mm"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang,"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageProfil"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="yahuyagaming@gmail.com"
+        android:layout_below="@+id/tvWelcome"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape4"
+        android:text="Edit Profil"
+        android:textColor="@color/colorWhite"
+        android:textSize="8pt"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvEmail"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape1"
+        android:text="Keluar"
+        android:textColor="@color/colorWhite"
+        android:textSize="8pt"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEdit"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

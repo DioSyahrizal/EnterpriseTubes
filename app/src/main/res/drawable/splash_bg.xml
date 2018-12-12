@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    // mengatur warna latar splash screen dibagian
+    <item android:drawable="@color/colorWhite"/>
+
+    <item>
+        <bitmap
+            android:gravity="center_vertical|center_horizontal"
+            android:src="@drawable/logo_ayodolen"/>
+    </item>
+
+</layer-list>
